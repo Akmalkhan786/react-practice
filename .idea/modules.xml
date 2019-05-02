@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/react-for-practice.iml" filepath="$PROJECT_DIR$/.idea/react-for-practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/react-routing-lifecycle.iml" filepath="$PROJECT_DIR$/.idea/react-routing-lifecycle.iml" />
     </modules>
   </component>
 </project>
