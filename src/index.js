@@ -7,7 +7,9 @@ import Post from './components/posts';
 import Profile from './components/profile';
 import Home from './components/home';
 import PostItem from './components/post_item';
-import Life from './components/lifescyle'
+import Life from './components/lifescyle';
+import Conditional from './components/conditional';
+import User from './components/user'
 
 const App = () => {
     return(
@@ -21,7 +23,9 @@ const App = () => {
                      activeClassName='selectedx'
                      >Posts</NavLink><br/>
                     <NavLink to='/profile'>Profile</NavLink><br/>
-                    <NavLink to='/life'>Life</NavLink>
+                    <NavLink to='/life'>Life</NavLink><br/>
+                    <NavLink to='/conditional'>Conditional</NavLink><br/>
+                    <NavLink to='/user'>User</NavLink>
                     <hr/>
                 </header>
                 <Switch>
@@ -29,6 +33,8 @@ const App = () => {
                     <Route path='/profile' component={Profile}/>
                     <Route path='/posts' component={Post}/>
                     <Route path='/life' component={Life}/>
+                    <Route path='/conditional' component={Conditional}/>
+                    <Route path='/user' component={User}/>
                     <Route path='/' exact component={Home}/>
                     <Route render= {()=> <h3>oop not found 404</h3>}/>
                 </Switch>

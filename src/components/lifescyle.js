@@ -1,15 +1,21 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 
-class Life extends Component {
+class Life extends PureComponent {
     state = {
         title: 'Life Cycle'
     }
-    componentDidMount(){
-        console.log('2 did mount')
-    }
-    componentWillMount(){
-        console.log('1 will mount')
-    }
+    // componentDidMount(){
+    //     console.log('2 did mount')
+    // }
+    // componentWillMount(){
+    //     console.log('1 will mount')
+    // }
+    // shouldComponentUpdate(nextProps,nextState){
+    //     if (nextState.title === this.state.title) {
+    //        return false
+    //     }
+    //     return true;
+    // }
     render() {
         console.log('Render')
         return(
